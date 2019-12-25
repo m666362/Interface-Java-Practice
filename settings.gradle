@@ -1,0 +1,2 @@
+include ':app', ':interface_library'
+rootProject.name='Java Practice 5'
