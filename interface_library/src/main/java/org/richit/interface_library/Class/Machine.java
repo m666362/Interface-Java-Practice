@@ -4,7 +4,8 @@ import org.richit.interface_library.Interface.Info;
 
 public class Machine implements Info {
     @Override
-    public void showInfo() {
+    public Person showInfo() {
         System.out.println("Displaying from Machine Class");
+        return null;
     }
 }
