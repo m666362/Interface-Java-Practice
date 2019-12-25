@@ -29,7 +29,7 @@ public class MyClass {
 
     public static void main(String[] args) {
 
-        System.out.println("------------------------------------Project Open----------------------------------");
+        System.out.println("-----------------Project Open----------------");
         initObject();
         person1.showInfo();
         machine1.showInfo();
@@ -37,7 +37,12 @@ public class MyClass {
 
         info2.showInfo();
         info3.showInfo();
-        System.out.println("------------------------------------Project End------------------------------------");
-    }
 
+
+
+        System.out.println("-----------------Project End-----------------");
+    }
+    public void outputInfo(Info info){
+        info.showInfo();
+    }
 }
